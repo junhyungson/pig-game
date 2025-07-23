@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="player player1">
+        <div class="player-score">
+          <h2>Player 1</h2>
+          <p>0</p>
+        </div>
+        <div class="current-score">
+          <label for="">current</label>
+          <p>0</p>
+        </div>
+      </section>
+      <section class="game-controls">
+        <button class="btn btn--new">🔄 New Game</button>
+        <span class="dice" style="font-size: 3rem">🎲</span>
+        <button class="btn btn--roll">🎲 Roll Dice</button>
+        <button class="btn btn--hold">📥 Hold</button>
+      </section>
+      <section class="player player2">
+        <div class="player-score">
+          <h2>Player 2</h2>
+          <p>0</p>
+        </div>
+        <div class="current-score">
+          <label for="">current</label>
+          <p>0</p>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="main.ts"></script>
+  </body>
+</html>
