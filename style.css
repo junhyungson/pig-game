@@ -60,9 +60,21 @@ section {
   align-items: center;
 }
 
-.current-score {
+.current {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.btn {
+  padding: 0.25rem;
+}
+
+.player--active {
+  background-color: darkgrey;
+}
+
+.hidden {
+  display: none;
 }
